@@ -1,7 +1,6 @@
-'user strict';
-var dbConn = require('../config/db.config');
-//city object create
-var city = function (city) {
+const dbConn = require('../config/db.config');
+// city object create
+const city = function (city) {
     this.fldName = city.fldName;
     this.fldLat = city.fldLat;
     this.fldLong = city.fldLong;
