@@ -8,7 +8,7 @@ const dbConn = mysql.createConnection({
     port: '32000',
     database: 'citiesData',
 });
-dbConn.connect( (err) => {
+dbConn.connect((err) => {
     if (err) throw err;
     console.log('Database Connected!');
 });
